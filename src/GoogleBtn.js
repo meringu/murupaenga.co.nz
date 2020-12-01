@@ -67,7 +67,7 @@ class GoogleBtn extends Component {
       {
         this.state.profile
           ?
-        <img src={this.state.profile.imageUrl} />
+        <img src={this.state.profile.imageUrl} alt="avatar" />
           :
         null
       }
